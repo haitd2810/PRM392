@@ -13,10 +13,16 @@
         android:theme="@style/Theme.Project"
         tools:targetApi="31">
         <activity
-            android:name="SignUp.signup_MainActivity"
+            android:name="StaffScreen.detail_MainActivity"
             android:exported="false" />
         <activity
-            android:name="Login.login_MainActivity"
+            android:name="StaffScreen.order_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="StaffScreen.profile_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="StaffScreen.menu_MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +30,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="StaffScreen.table_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="SignUp.signup_MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="Login.login_MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
