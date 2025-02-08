@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="StaffScreen.detail_MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+        <!-- Tiêu đề -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Detail"
+                android:textSize="24sp"
+                android:textColor="#597BF7"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"
+                android:gravity="left"/>
+            <ImageView
+                android:id="@+id/addOrderButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_add"/>
+        </LinearLayout>
+
+
+        <!-- Danh sách món ăn -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lsOrderView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Thanh điều hướng dưới -->
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Include layout -->
+            <include
+                android:id="@+id/bottomNav"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                layout="@layout/bottom_navigation"/>
+
+            <!-- Button nằm ngay trên include -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/bottomNav"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:background="@drawable/border_linear_layout">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Total: 100.000"/>
+
+                <Button
+                    android:id="@+id/btnCash"
+                    android:layout_width="130dp"
+                    android:layout_height="60dp"
+                    android:text="Pay in Cash"/>
+                <Button
+                    android:id="@+id/btnBanking"
+                    android:layout_width="120dp"
+                    android:layout_height="60dp"
+                    android:text="Banking"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+</LinearLayout>
