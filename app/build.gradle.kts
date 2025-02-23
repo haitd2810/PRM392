@@ -38,6 +38,7 @@ android {
 dependencies {
     implementation("com.microsoft.sqlserver:mssql-jdbc:10.2.1.jre8")
     implementation("net.sourceforge.jtds:jtds:1.3.1")
+    implementation("com.squareup.okhttp3:okhttp:4.9.3")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
