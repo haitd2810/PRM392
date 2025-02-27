@@ -45,7 +45,6 @@ public class MenuAdapter extends ArrayAdapter<Menu> {
         itemName.setText(menu.getName());
         itemPrice.setText(String.format("%,.0f VND", menu.getPrice()));
         String imgName = menu.getImg();
-        Log.e("Image Error", "Image: " + menu.getImg());
         int imgResId = context.getResources().getIdentifier(imgName, "drawable", context.getPackageName());
 
         if (imgResId != 0) {

@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\restaurantcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,72 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Menu.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\Menu.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Menu.cs",
-              "RelativeToolTip": "WebAPI\\Models\\Menu.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T13:56:05.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T13:54:06.701Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuController.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\MenuController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\MenuController.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\MenuController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T13:43:35.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RestaurantContext.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\RestaurantContext.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\RestaurantContext.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\RestaurantContext.cs",
-              "RelativeToolTip": "WebAPI\\Models\\RestaurantContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwCYAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T13:40:12.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-26T13:39:33.046Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:25:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
@@ -127,24 +74,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:24:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:23:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WebAPI.csproj",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\WebAPI.csproj",
-              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\WebAPI.csproj",
-              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-26T04:11:47.141Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -152,7 +82,104 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Request\\LoginRequest.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "WebAPI\\Request\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:15:07.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenController.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthenController.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthenController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T15:14:23.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Menu.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\Menu.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Menu.cs",
+              "RelativeToolTip": "WebAPI\\Models\\Menu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:56:05.057Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:54:06.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\MenuController.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:43:35.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RestaurantContext.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\RestaurantContext.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\RestaurantContext.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\RestaurantContext.cs",
+              "RelativeToolTip": "WebAPI\\Models\\RestaurantContext.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:40:12.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-26T13:39:33.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebAPI.csproj",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-26T04:11:47.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
@@ -160,8 +187,7 @@
               "RelativeToolTip": "WebAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-26T04:08:42.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-26T04:08:42.007Z"
             }
           ]
         }

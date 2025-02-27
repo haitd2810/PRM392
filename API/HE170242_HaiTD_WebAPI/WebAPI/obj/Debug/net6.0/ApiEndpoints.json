@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WebAPI.Controllers.AuthenController",
+    "Method": "Post",
+    "RelativePath": "api/Authen",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "WebAPI.Request.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebAPI.Controllers.MenuController",
     "Method": "Get",
     "RelativePath": "api/Menu",

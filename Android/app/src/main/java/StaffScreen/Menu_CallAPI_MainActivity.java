@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import Adapter.MenuAdapter;
+import Common.navigationHelper;
 import Models.Menu;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -39,11 +40,10 @@ public class Menu_CallAPI_MainActivity extends AppCompatActivity {
         listView.setAdapter(menuAdapter);
 
         callAPI();
-
-        callAPI();
+        navigationHelper.setUpNavigation(this);
     }
     private void callAPI() {
-        String url = "http://10.0.2.2:5009/api/Menu";  // Dùng 10.0.2.2 để trỏ tới localhost của máy tính
+        String url = "http://10.0.2.2:5009/api/Menu";
 
         Request request = new Request.Builder()
                 .url(url)

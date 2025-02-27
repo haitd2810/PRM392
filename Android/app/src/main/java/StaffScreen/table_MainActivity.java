@@ -32,7 +32,7 @@ public class table_MainActivity extends AppCompatActivity {
             View child = tableContainer.getChildAt(i);
             if ("table".equals(child.getTag())) {
                 child.setOnClickListener(v -> {
-                    Intent intent = new Intent(table_MainActivity.this, menu_MainActivity.class);
+                    Intent intent = new Intent(table_MainActivity.this, Menu_CallAPI_MainActivity.class);
                     startActivity(intent);
                 });
             }
