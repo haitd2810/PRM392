@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebAPI.Models
 {
@@ -19,7 +20,9 @@ namespace WebAPI.Models
         public DateTime? UpdateAt { get; set; }
         public DateTime? DeleteAt { get; set; }
 
+        [JsonIgnore]
         public virtual ICollection<Bill> Bills { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Booking> Bookings { get; set; }
     }
 }

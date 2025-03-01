@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebAPI.Models
 {
@@ -24,7 +25,9 @@ namespace WebAPI.Models
         public DateTime? DeleteAt { get; set; }
 
         public virtual Category? Cate { get; set; }
+        [JsonIgnore]
         public virtual ICollection<BillInfor> BillInfors { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Feedback> Feedbacks { get; set; }
     }
 }

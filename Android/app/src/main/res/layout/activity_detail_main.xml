@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="StaffScreen.detail_MainActivity"
+    tools:context="StaffScreen.TableDetail.detail_MainActivity"
     android:orientation="vertical"
     android:padding="16dp"
     android:background="@android:color/white">
@@ -15,7 +15,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="16dp">
+            android:padding="16dp"
+            android:fitsSystemWindows="true">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -34,54 +35,59 @@
 
 
         <!-- Danh sách món ăn -->
-        <androidx.recyclerview.widget.RecyclerView
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:fillViewport="true">
+        <ListView
             android:id="@+id/lsOrderView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"/>
-
+            android:layout_height="450dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="100dp"/>
+    </ScrollView>
         <!-- Thanh điều hướng dưới -->
-        <RelativeLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Include layout -->
+        <include
+            android:id="@+id/bottomNav"
+            layout="@layout/bottom_navigation"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
 
-            <!-- Include layout -->
-            <include
-                android:id="@+id/bottomNav"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                layout="@layout/bottom_navigation"/>
+        <!-- Button nằm ngay trên include -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/bottomNav"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
 
-            <!-- Button nằm ngay trên include -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_above="@id/bottomNav"
-                android:orientation="horizontal"
+            <TextView
+                android:id="@+id/tvTotal"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:background="@drawable/border_linear_layout">
+                android:text="Total: 100.000" />
 
-                <TextView
-                    android:layout_width="0dp"
-                    android:layout_height="35dp"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="Total: 100.000"/>
+            <Button
+                android:id="@+id/btnCash"
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:text="Pay in Cash" />
 
-                <Button
-                    android:id="@+id/btnCash"
-                    android:layout_width="130dp"
-                    android:layout_height="60dp"
-                    android:text="Pay in Cash"/>
-                <Button
-                    android:id="@+id/btnBanking"
-                    android:layout_width="120dp"
-                    android:layout_height="60dp"
-                    android:text="Banking"
-                    android:layout_marginLeft="10dp"/>
-            </LinearLayout>
+            <Button
+                android:id="@+id/btnBanking"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:text="Banking" />
+        </LinearLayout>
 
-        </RelativeLayout>
+    </RelativeLayout>
 </LinearLayout>

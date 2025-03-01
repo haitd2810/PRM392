@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebAPI.Models
 {
@@ -13,6 +14,7 @@ namespace WebAPI.Models
         public DateTime? CreateAt { get; set; }
         public DateTime? UpdateAt { get; set; }
 
+        [JsonIgnore]
         public virtual Bill? Bill { get; set; }
         public virtual Menu? Menu { get; set; }
     }

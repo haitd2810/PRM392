@@ -7,7 +7,7 @@ import android.view.View;
 import com.example.project.R;
 
 import StaffScreen.profile_MainActivity;
-import StaffScreen.table_MainActivity;
+import StaffScreen.Table.table_MainActivity;
 
 public class navigationHelper {
     public static void setUpNavigation(Activity activity){

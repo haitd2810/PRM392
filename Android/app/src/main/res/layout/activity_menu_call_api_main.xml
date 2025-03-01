@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="StaffScreen.Menu_CallAPI_MainActivity">
+    tools:context="StaffScreen.Menu.Menu_CallAPI_MainActivity">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

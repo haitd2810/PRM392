@@ -17,15 +17,15 @@
         android:usesCleartextTraffic="true"
         android:networkSecurityConfig="@xml/network_security_config">
         <activity
-            android:name="StaffScreen.Menu_CallAPI_MainActivity"
+            android:name="StaffScreen.Menu.Menu_CallAPI_MainActivity"
             android:exported="false">
 
         </activity>
         <activity
-            android:name="StaffScreen.detail_MainActivity"
+            android:name="StaffScreen.TableDetail.detail_MainActivity"
             android:exported="false" />
         <activity
-            android:name="StaffScreen.order_MainActivity"
+            android:name="StaffScreen.Order.order_MainActivity"
             android:exported="false" />
         <activity
             android:name="StaffScreen.profile_MainActivity"
@@ -36,7 +36,7 @@
 
         </activity>
         <activity
-            android:name="StaffScreen.table_MainActivity"
+            android:name="StaffScreen.Table.table_MainActivity"
             android:exported="true" />
         <activity
             android:name="SignUp.signup_MainActivity"

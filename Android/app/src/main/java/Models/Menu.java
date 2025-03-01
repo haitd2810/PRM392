@@ -3,7 +3,7 @@ package Models;
 
 import java.util.*;
 
-public class Menu {
+public class Menu implements Comparable<Menu>  {
     private int id;
     private String name;
     private String detail;
@@ -26,7 +26,7 @@ public class Menu {
         this.price = price;
         this.img = img;
         this.quantity = quantity;
-        cateId = cateId;
+        this.cateId = cateId;
         this.deleteFlag = deleteFlag;
         this.createAt = createAt;
         this.upStringAt = upStringAt;
@@ -119,5 +119,18 @@ public class Menu {
 
     public void setDeleteAt(String deleteAt) {
         this.deleteAt = deleteAt;
+    }
+
+    public int getCateId() {
+        return cateId;
+    }
+
+    public void setCateId(int cateId) {
+        this.cateId = cateId;
+    }
+
+    @Override
+    public int compareTo(Menu menu) {
+        return Integer.compare(this.id, menu.id);
     }
 }
