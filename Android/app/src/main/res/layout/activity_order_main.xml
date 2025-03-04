@@ -62,7 +62,7 @@
 
         <!-- Button nằm ngay trên include -->
         <Button
-            android:id="@+id/btnOrder"
+            android:id="@+id/btnOrderMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@id/bottomNav"
