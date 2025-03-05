@@ -86,11 +86,47 @@ namespace WebAPI.Controllers
             return Ok();
         }
 
-        // PUT api/<OrdersController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, [FromBody] UpdateOrderRequest request)
+        {
+            BillInfor billI = RestaurantContext.ins.BillInfors.Where(x => x.Id == id).FirstOrDefault();
+            if (billI != null) {
+                if (request.quantity > 0)
+                {
+                    billI.Quantity = request.quantity;
+                    billI.Price = request.price;
+                    billI.UpdateAt = DateTime.Now;
+                    RestaurantContext.ins.BillInfors.Update(billI);
+                    await RestaurantContext.ins.SaveChangesAsync();
+                }
+                else
+                {
+                    RestaurantContext.ins.BillInfors.Remove(billI);
+                    await RestaurantContext.ins.SaveChangesAsync();
+                    List<BillInfor> bList = RestaurantContext.ins.BillInfors.Where(x => x.BillId == billI.BillId).ToList();
+                    if (bList.Count <= 0) {
+                        Table table = RestaurantContext.ins.Tables.Where(x => x.Id == request.tableId).FirstOrDefault();
+                        if (table != null)
+                        {
+                            table.IsOrder = false;
+                            RestaurantContext.ins.Tables.Update(table);
+                            await RestaurantContext.ins.SaveChangesAsync();
+                        }
+                        else
+                        {
+                            return NotFound("Table Not Found");
+                        }
+                        Bill bill = RestaurantContext.ins.Bills.Where(x => x.Id == billI.BillId).FirstOrDefault();
+                        if (bill != null) {
+                            RestaurantContext.ins.Bills.Remove(bill);
+                            await RestaurantContext.ins.SaveChangesAsync();
+                        }
+                    }
+                }
+                return Ok();
+            }
+            return NotFound("Not found detail table");
+        }
 
         //// DELETE api/<OrdersController>/5
         //[HttpDelete("{id}")]

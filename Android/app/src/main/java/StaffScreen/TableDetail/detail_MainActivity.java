@@ -33,7 +33,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class detail_MainActivity extends AppCompatActivity {
+public class detail_MainActivity extends AppCompatActivity implements detailAdapter.TotalPriceUpdateListener {
     private OkHttpClient client = new OkHttpClient();
     private List<Bill> bill = new ArrayList<>();
     private List<BillInfor> billInfors = new ArrayList<>();
@@ -45,15 +45,19 @@ public class detail_MainActivity extends AppCompatActivity {
     private ImageView addNewMeal;
     int tableId = 0;
     @Override
+    public void onTotalPriceUpdated(double total) {
+        runOnUiThread(() -> tvTotal.setText(String.format("Total: %,.0f VND", total)));
+    }
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_detail_main);
         tableId = getIntent().getIntExtra("tableId", -1);
-        lsView = findViewById(R.id.lsOrderView);
-        tvTotal = findViewById(R.id.tvTotal);
-        addNewMeal = findViewById(R.id.addOrderButton);
-        detailAdapter = new detailAdapter(this,billInfors);
+        lsView = findViewById(R.id.lsOrderViewDetail);
+        tvTotal = findViewById(R.id.tvTotalDetail);
+        addNewMeal = findViewById(R.id.addOrderButtonDetail);
+        detailAdapter = new detailAdapter(this, billInfors, tableId, this);
         lsView.setAdapter(detailAdapter);
         callAPI();
 

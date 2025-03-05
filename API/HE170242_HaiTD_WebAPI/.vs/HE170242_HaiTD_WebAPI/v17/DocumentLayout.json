@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\request\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\request\\createorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\request\\updateorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\request\\updateorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -111,14 +111,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateOrderRequest.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\CreateOrderRequest.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Request\\CreateOrderRequest.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\CreateOrderRequest.cs",
-              "RelativeToolTip": "WebAPI\\Request\\CreateOrderRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAzAAAAAAAAAA==",
+              "Title": "UpdateOrderRequest.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\UpdateOrderRequest.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Request\\UpdateOrderRequest.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\UpdateOrderRequest.cs",
+              "RelativeToolTip": "WebAPI\\Request\\UpdateOrderRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T03:44:54.951Z",
+              "WhenOpened": "2025-03-04T16:08:27.429Z",
               "EditorCaption": ""
             },
             {
@@ -129,7 +129,7 @@
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\OrdersController.cs",
               "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEgAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv3oAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T03:37:11.82Z",
               "EditorCaption": ""
