@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPI.Models;
 using WebAPI.Request;
 
@@ -28,7 +29,7 @@ namespace WebAPI.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] LoginRequest request)
         {
-            var account = RestaurantContext.ins.Accounts.FirstOrDefault(a => 
+            var account = RestaurantContext.ins.Accounts.Include(x => x.Role).FirstOrDefault(a => 
             a.Username.ToLower().Equals(request.email.ToLower()) && a.Password.Equals(request.password));
             if (account == null) return BadRequest("Email or Password is wrong");
             return Ok(account);

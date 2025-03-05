@@ -128,6 +128,31 @@ namespace WebAPI.Controllers
             return NotFound("Not found detail table");
         }
 
+        [HttpPut("{id}/close")]
+        public async Task<IActionResult> CloseOrder(int id)
+        {
+            Bill bill = await RestaurantContext.ins.Bills.Where(x => x.Id == id).FirstOrDefaultAsync();
+            if (bill != null) {
+                bill.UpdateAt = DateTime.Now;
+                bill.Payed = true;
+                RestaurantContext.ins.Bills.Update(bill);
+                await RestaurantContext.ins.SaveChangesAsync();
+
+                Table table = await RestaurantContext.ins.Tables.Where(x => x.Id ==  bill.TableId).FirstOrDefaultAsync();
+                if (table != null)
+                {
+                    table.IsOrder = false;
+                    RestaurantContext.ins.Tables.Update(table);
+                    await RestaurantContext.ins.SaveChangesAsync();
+                }
+                else{
+                    return NotFound("Table not found");
+                }
+                return Ok();
+            }
+            return NotFound("Not found bill");
+        }
+
         //// DELETE api/<OrdersController>/5
         //[HttpDelete("{id}")]
         //public void Delete(int id)

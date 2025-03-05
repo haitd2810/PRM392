@@ -6,24 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="StaffScreen.profile_MainActivity">
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/linear"
-        >
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="25dp"
-            android:src="@drawable/avatar"/>
-    </FrameLayout>
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:fitsSystemWindows="true">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,7 +20,6 @@
             >
             <TextView
                 android:layout_weight="1"
-                android:id="@+id/usrusr"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -44,50 +32,13 @@
                 />
             <TextView
                 android:layout_weight="1"
-                android:id="@+id/ususr"
+                android:id="@+id/tvname_profile"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Ta Duy Hai"
                 android:textColorHint="#181737"
                 android:textColor="#181737"
-                android:maxLength="12"
-                android:background="#0000"
-                android:padding="16dp"
-                android:gravity="right"
-                />
-        </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#dad8d8"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-            <TextView
-                android:layout_weight="1"
-                android:id="@+id/mail"
-                android:textSize="16dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Email"
-                android:textColor="#a2a1b8"
-                android:maxLength="12"
-                android:background="#0000"
-                android:padding="16dp"
-                android:gravity="left"/>
-            <TextView
-                android:layout_weight="1"
-                android:id="@+id/maill"
-                android:textSize="16dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColorHint="#1b193b"
-                android:hint="haitd@fpt.edu.vn"
-                android:textColor="#181737"
-                android:maxLength="12"
                 android:background="#0000"
                 android:padding="16dp"
                 android:gravity="right"
@@ -118,7 +69,7 @@
                 />
             <TextView
                 android:layout_weight="1"
-                android:id="@+id/pswrdd"
+                android:id="@+id/tvpassword_profile"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -156,7 +107,7 @@
                 />
             <TextView
                 android:layout_weight="1"
-                android:id="@+id/tvcodeProfile"
+                android:id="@+id/tvCode_profile"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -194,7 +145,7 @@
                 />
             <TextView
                 android:layout_weight="1"
-                android:id="@+id/tvRoleProfile"
+                android:id="@+id/tvrole_profile"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -207,6 +158,25 @@
                 android:padding="16dp"
                 android:gravity="right"
                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btnEdit_Profile"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:text="Edit Profile"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btnLogout_Profile"
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:text="Logout"
+                android:layout_gravity="center"/>
         </LinearLayout>
 
     </LinearLayout>

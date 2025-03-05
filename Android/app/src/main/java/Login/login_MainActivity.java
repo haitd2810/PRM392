@@ -1,6 +1,7 @@
 package Login;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -11,12 +12,19 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.project.R;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.lang.reflect.Type;
+import java.util.List;
 
+import Common.AccountManager;
+import Models.Account;
+import Models.Menu;
 import StaffScreen.Table.table_MainActivity;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -30,6 +38,7 @@ public class login_MainActivity extends AppCompatActivity {
     private final OkHttpClient client = new OkHttpClient();
     EditText edEmail,edPassword;
     Button btnLogin;
+    public Account account = new Account();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -74,9 +83,13 @@ public class login_MainActivity extends AppCompatActivity {
                 if (response.isSuccessful()) {
                     String responseData = response.body().string();
                     Log.d("API_SUCCESS", "Response: " + responseData);
-
+                    Gson gson = new Gson();
+                    Type Type = new TypeToken<Account>() {}.getType();
+                    final Account fetchedAccount = gson.fromJson(responseData, Type);
                     runOnUiThread(() -> {
                         Toast.makeText(getApplicationContext(), "Login thành công!", Toast.LENGTH_SHORT).show();
+                        account = fetchedAccount;
+                        AccountManager.getInstance().setAccount(account);
                         Intent intent = new Intent(login_MainActivity.this, table_MainActivity.class);
                         startActivity(intent);
 

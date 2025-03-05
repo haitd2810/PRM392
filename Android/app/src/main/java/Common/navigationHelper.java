@@ -11,7 +11,6 @@ import StaffScreen.Table.table_MainActivity;
 
 public class navigationHelper {
     public static void setUpNavigation(Activity activity){
-        // Bắt sự kiện click cho từng mục trong menu
         activity.findViewById(R.id.nav_table).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
