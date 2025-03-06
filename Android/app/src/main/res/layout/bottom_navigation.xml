@@ -37,15 +37,15 @@
         android:gravity="center"
         android:clickable="true"
         android:focusable="true"
-        android:id="@+id/nav_schedule">
+        android:id="@+id/nav_Bill">
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/static_icon"/>
+            android:src="@drawable/bill"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Statistic"
+            android:text="Bill"
             android:textSize="12sp"/>
     </LinearLayout>
 

@@ -19,6 +19,7 @@ import Common.AccountManager;
 import Common.navigationHelper;
 import Login.login_MainActivity;
 import Models.Account;
+import StaffScreen.ChangePass.ChangePass_MainActivity;
 
 public class profile_MainActivity extends AppCompatActivity {
 
@@ -39,6 +40,11 @@ public class profile_MainActivity extends AppCompatActivity {
             tvCode.setText(account.getCode());
             tvRole.setText(account.getRole().getName());
         }
+
+        findViewById(R.id.btnEdit_Profile).setOnClickListener(v -> {
+            Intent intent = new Intent(this, ChangePass_MainActivity.class);
+            startActivity(intent);
+        });
 
         navigationHelper.setUpNavigation(this);
 

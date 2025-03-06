@@ -76,7 +76,7 @@ public class order_MainActivity extends AppCompatActivity {
                 orderItems.add(odi);
             }
             requestOrder = new CreateOrderRequest(tableId, orderItems);
-            callAPIPost(requestOrder);
+
             Iterator<Order> iterator = MenuAdapter.menuOrder.iterator();
             while (iterator.hasNext()) {
                 Order o = iterator.next();
@@ -84,9 +84,8 @@ public class order_MainActivity extends AppCompatActivity {
                     iterator.remove();
                 }
             }
-            Intent intent = new Intent(order_MainActivity.this, detail_MainActivity.class);
-            intent.putExtra("tableId", tableId);
-            startActivity(intent);
+            callAPIPost(requestOrder);
+
         });
 
         findViewById(R.id.addOrderButton).setOnClickListener(v -> {
@@ -138,6 +137,9 @@ public class order_MainActivity extends AppCompatActivity {
                     Log.d("API_SUCCESS", "ResponseOrder: " + responseData);
 
                     runOnUiThread(() -> {
+                        Intent intent = new Intent(order_MainActivity.this, detail_MainActivity.class);
+                        intent.putExtra("tableId", tableId);
+                        startActivity(intent);
                         finish();
                     });
                 } else {

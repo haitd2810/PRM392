@@ -7,7 +7,7 @@
     android:layout_marginBottom="8dp">
 
     <TextView
-        android:id="@+id/txtBillId_BillItem"
+        android:id="@+id/txtTableId_BillItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bill ID: 123"
@@ -15,13 +15,13 @@
         android:textSize="16sp" />
 
     <TextView
-        android:id="@+id/txtTableId_BillItem"
+        android:id="@+id/txtDate_BillItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Table ID: 5" />
 
     <TextView
-        android:id="@+id/txtStatus_BillItem"
+        android:id="@+id/txtPrice_BillItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Status: Paid"

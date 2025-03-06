@@ -30,8 +30,10 @@ namespace WebAPI.Controllers
         public IActionResult Post([FromBody] LoginRequest request)
         {
             var account = RestaurantContext.ins.Accounts.Include(x => x.Role).FirstOrDefault(a => 
-            a.Username.ToLower().Equals(request.email.ToLower()) && a.Password.Equals(request.password));
-            if (account == null) return BadRequest("Email or Password is wrong");
+            a.Username.ToLower().Equals(request.email.ToLower()));
+            if (account == null) return BadRequest("Email is wrong");
+            bool password = BCrypt.Net.BCrypt.Verify(request.password, account.Password);
+            if(password == false) return BadRequest("Password is wrong");
             return Ok(account);
         }
 

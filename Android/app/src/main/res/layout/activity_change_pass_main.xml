@@ -5,14 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="StaffScreen.profile_MainActivity">
+    tools:context="StaffScreen.ChangePass.ChangePass_MainActivity">
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_alignParentBottom="true"
-        android:fitsSystemWindows="true">
+        android:fitsSystemWindows="true"
+        android:gravity="center">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,20 +24,21 @@
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Name"
+                android:text="Old password"
                 android:textColor="#a2a1b8"
                 android:maxLength="12"
                 android:background="#0000"
                 android:padding="16dp"
                 android:gravity="left"
                 />
-            <TextView
+            <EditText
                 android:layout_weight="1"
-                android:id="@+id/tvname_profile"
+                android:id="@+id/edit_oldPass_changepass"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Ta Duy Hai"
+                android:hint=""
+                android:inputType="textPassword"
                 android:textColorHint="#181737"
                 android:textColor="#181737"
                 android:background="#0000"
@@ -56,26 +58,25 @@
             >
             <TextView
                 android:layout_weight="1"
-                android:id="@+id/pswrd"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Password"
+                android:text="New password"
                 android:textColor="#a2a1b8"
                 android:maxLength="12"
                 android:background="#0000"
                 android:padding="16dp"
                 android:gravity="left"
                 />
-            <TextView
+            <EditText
                 android:layout_weight="1"
-                android:id="@+id/tvpassword_profile"
+                android:id="@+id/edit_newPassword_changepass"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="#1b193b"
                 android:inputType="textPassword"
-                android:hint="**********"
+                android:hint=""
                 android:textColor="#181737"
                 android:maxLength="12"
                 android:background="#0000"
@@ -98,22 +99,22 @@
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Staff Code"
+                android:text="Repeat Password"
                 android:textColor="#a2a1b8"
                 android:maxLength="12"
                 android:background="#0000"
                 android:padding="16dp"
                 android:gravity="left"
                 />
-            <TextView
+            <EditText
                 android:layout_weight="1"
-                android:id="@+id/tvCode_profile"
+                android:id="@+id/edit_repeatPass_changepass"
                 android:textSize="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColorHint="#1b193b"
-                android:inputType="text"
-                android:hint="ST123"
+                android:inputType="textPassword"
+                android:hint=""
                 android:textColor="#181737"
                 android:maxLength="12"
                 android:background="#0000"
@@ -121,62 +122,19 @@
                 android:gravity="right"
                 />
         </LinearLayout>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#dad8d8"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-            <TextView
-                android:layout_weight="1"
-                android:textSize="16dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Role"
-                android:textColor="#a2a1b8"
-                android:maxLength="12"
-                android:background="#0000"
-                android:padding="16dp"
-                android:gravity="left"
-                />
-            <TextView
-                android:layout_weight="1"
-                android:id="@+id/tvrole_profile"
-                android:textSize="16dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColorHint="#1b193b"
-                android:inputType="text"
-                android:hint="Staff"
-                android:textColor="#181737"
-                android:maxLength="12"
-                android:background="#0000"
-                android:padding="16dp"
-                android:gravity="right"
-                />
-        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
             <Button
-                android:id="@+id/btnEdit_Profile"
+                android:id="@+id/btnSave_changepass"
                 android:layout_width="120dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="10dp"
-                android:text="Change Password"
-                android:layout_gravity="center"/>
-            <Button
-                android:id="@+id/btnLogout_Profile"
-                android:layout_width="120dp"
-                android:layout_height="60dp"
-                android:layout_marginLeft="10dp"
-                android:text="Logout"
-                android:layout_gravity="center"/>
+                android:text="Save"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
         </LinearLayout>
 
     </LinearLayout>

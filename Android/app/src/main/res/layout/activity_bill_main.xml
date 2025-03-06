@@ -7,18 +7,70 @@
     android:layout_height="match_parent"
     tools:context="StaffScreen.Bill.Bill_MainActivity"
     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:fitsSystemWindows="true">
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cld_bill"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dad8d8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_weight="1"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textColor="#a2a1b8"
+            android:maxLength="12"
+            android:background="#0000"
+            android:padding="16dp"
+            android:gravity="left"
+            />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/tvTotalBill"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#1b193b"
+            android:inputType="text"
+            android:hint="123"
+            android:textColor="#181737"
+            android:background="#0000"
+            android:padding="16dp"
+            android:gravity="right"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#dad8d8"/>
+
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
+        android:layout_height="match_parent">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewBills_bill"
+        <ListView
+            android:id="@+id/lsBills_bill"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp"
-            android:scrollbars="vertical"/>
+            android:scrollbars="vertical"
+            android:layout_above="@id/bottomNav"/>
 
         <!-- Include layout -->
         <include
