@@ -21,6 +21,7 @@ import org.json.JSONObject;
 import java.io.IOException;
 
 import Common.AccountManager;
+import Common.navigationHelper;
 import Login.login_MainActivity;
 import Models.Account;
 import StaffScreen.ChangePass.Request.ChangePasswordRequest;
@@ -54,6 +55,7 @@ public class ChangePass_MainActivity extends AppCompatActivity {
 
 
         });
+        navigationHelper.setUpNavigation(this);
     }
 
     private void callAPIPut(int accountId, ChangePasswordRequest requestChange) {

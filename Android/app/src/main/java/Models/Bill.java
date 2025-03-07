@@ -5,7 +5,7 @@ import java.util.List;
 public class Bill {
     private int id;
     private int tableId;
-    private boolean payed;
+    private boolean paid;
     private String createAt;
     private String updateAt;
     private int updateBy;
@@ -16,10 +16,10 @@ public class Bill {
     public Bill() {
     }
 
-    public Bill(int id, int tableId, boolean payed, String createAt, String updateAt, int updateBy, boolean status, Table table, List<BillInfor> billInfors) {
+    public Bill(int id, int tableId, boolean paid, String createAt, String updateAt, int updateBy, boolean status, Table table, List<BillInfor> billInfors) {
         this.id = id;
         this.tableId = tableId;
-        this.payed = payed;
+        this.paid = paid;
         this.createAt = createAt;
         this.updateAt = updateAt;
         this.updateBy = updateBy;
@@ -44,12 +44,12 @@ public class Bill {
         this.tableId = tableId;
     }
 
-    public boolean isPayed() {
-        return payed;
+    public boolean ispaid() {
+        return paid;
     }
 
-    public void setPayed(boolean payed) {
-        this.payed = payed;
+    public void setpaid(boolean paid) {
+        this.paid = paid;
     }
 
     public String getCreateAt() {

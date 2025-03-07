@@ -1,6 +1,7 @@
 package StaffScreen.Bill;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -46,6 +47,12 @@ public class BillAdapter extends ArrayAdapter<Bill> {
         }
         itemPrice.setText("Total Price: " + String.format("%,.0f VND", total));
 
+        ImageView btnView = convertView.findViewById(R.id.btnViewDetail_Bill);
+        btnView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, BillDetail_MainActivity.class);
+            intent.putExtra("BillId", bill.getId());
+            context.startActivity(intent);
+        });
 
         return convertView;
     }

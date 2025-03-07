@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] LoginRequest request)
         {
-            var account = RestaurantContext.ins.Accounts.Include(x => x.Role).FirstOrDefault(a => 
+            var account = RestaurantContext.ins.Accounts.Include(x => x.Role).Include(x => x.Bookings.OrderByDescending(x => x.StartDate)).FirstOrDefault(a => 
             a.Username.ToLower().Equals(request.email.ToLower()));
             if (account == null) return BadRequest("Email is wrong");
             bool password = BCrypt.Net.BCrypt.Verify(request.password, account.Password);

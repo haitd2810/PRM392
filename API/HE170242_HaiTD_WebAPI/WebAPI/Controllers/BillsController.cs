@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Globalization;
 using WebAPI.Models;
 
@@ -23,18 +24,23 @@ namespace WebAPI.Controllers
 
             List<Bill> bills = RestaurantContext.ins.Bills
                 .Include(x => x.BillInfors)
-                .Where(x => x.CreateAt.Value.Date == dateTime.Date && x.Payed == true)
+                .Where(x => x.CreateAt.Value.Date == dateTime.Date && x.Paid == true)
                 .ToList();
 
             return Ok(bills);
         }
 
-        //// GET api/<BIllsController>/5
-        //[HttpGet("{id}")]
-        //public string Get(int id)
-        //{
-        //    return "value";
-        //}
+        // GET api/<BIllsController>/5
+        [HttpGet("{id}/Detail")]
+        public IActionResult GetDetail(int id)
+        {
+            List<Bill> bills = RestaurantContext.ins.Bills
+                .Include(x => x.BillInfors).ThenInclude(x => x.Menu)
+                .Where(x => x.Id == id && x.Paid == true)
+                .ToList();
+
+            return Ok(bills);
+        }
 
         //// POST api/<BIllsController>
         //[HttpPost]

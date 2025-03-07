@@ -21,7 +21,7 @@ namespace WebAPI.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            List<Bill> bill = RestaurantContext.ins.Bills.Where(b => b.TableId == id).Include(b => b.Table).Include(b => b.BillInfors).ThenInclude(b => b.Menu).Where(b => b.Payed == false).ToList();
+            List<Bill> bill = RestaurantContext.ins.Bills.Where(b => b.TableId == id).Include(b => b.Table).Include(b => b.BillInfors).ThenInclude(b => b.Menu).Where(b => b.Paid == false).ToList();
             return Ok(bill);
         }
 

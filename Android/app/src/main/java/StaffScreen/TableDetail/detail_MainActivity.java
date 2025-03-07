@@ -88,8 +88,6 @@ public class detail_MainActivity extends AppCompatActivity implements detailAdap
                     .setMessage("Confirm that you have received the cash?")
                     .setPositiveButton("Yes", (dialog, which) -> {
                         callAPIPut(bill.get(0).getId());
-                        Intent intent = new Intent(this, table_MainActivity.class);
-                        startActivity(intent);
                     })
                     .setNegativeButton("No", null)
                     .show();
@@ -170,6 +168,8 @@ public class detail_MainActivity extends AppCompatActivity implements detailAdap
                     Log.d("API_SUCCESS", "Response Close Bill: " + responseData);
 
                     runOnUiThread(() -> {
+                        Intent intent = new Intent(detail_MainActivity.this, table_MainActivity.class);
+                        startActivity(intent);
                         finish();
                     });
                 } else {

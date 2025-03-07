@@ -99,7 +99,7 @@ namespace WebAPI.Models
 
                 entity.Property(e => e.CreateBy).HasColumnName("createBy");
 
-                entity.Property(e => e.Payed).HasColumnName("payed");
+                entity.Property(e => e.Paid).HasColumnName("paid");
 
                 entity.Property(e => e.Status).HasColumnName("status");
 
@@ -156,6 +156,8 @@ namespace WebAPI.Models
 
                 entity.Property(e => e.Id).HasColumnName("id");
 
+                entity.Property(e => e.AccountId).HasColumnName("accountId");
+
                 entity.Property(e => e.CreateAt)
                     .HasColumnType("datetime")
                     .HasColumnName("createAt");
@@ -186,6 +188,12 @@ namespace WebAPI.Models
                     .HasColumnName("status");
 
                 entity.Property(e => e.TableId).HasColumnName("tableID");
+
+                entity.HasOne(d => d.Account)
+                    .WithMany(p => p.Bookings)
+                    .HasForeignKey(d => d.AccountId)
+                    .OnDelete(DeleteBehavior.Cascade)
+                    .HasConstraintName("FK_Booking_Account");
 
                 entity.HasOne(d => d.Table)
                     .WithMany(p => p.Bookings)

@@ -23,6 +23,7 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 import Common.AccountManager;
+import Customer.customer_MainActivity;
 import Models.Account;
 import Models.Menu;
 import StaffScreen.Table.table_MainActivity;
@@ -90,10 +91,17 @@ public class login_MainActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Login thành công!", Toast.LENGTH_SHORT).show();
                         account = fetchedAccount;
                         AccountManager.getInstance().setAccount(account);
-                        Intent intent = new Intent(login_MainActivity.this, table_MainActivity.class);
-                        startActivity(intent);
+                        Log.d("Account Role: ", "RoleID: "+ account.getRoleId());
+                        if(account.getRoleId() == 3){
+                            Intent intent = new Intent(login_MainActivity.this, customer_MainActivity.class);
+                            startActivity(intent);
+                            finish();
+                        }else{
+                            Intent intent = new Intent(login_MainActivity.this, table_MainActivity.class);
+                            startActivity(intent);
 
-                        finish();
+                            finish();
+                        }
                     });
                 } else {
                     Log.e("API_ERROR", "Response error: " + response.code());

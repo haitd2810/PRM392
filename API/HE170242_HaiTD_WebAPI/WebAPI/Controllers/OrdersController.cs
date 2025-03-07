@@ -29,7 +29,7 @@ namespace WebAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CreateOrderRequest request)
         {
-            Bill bill = await RestaurantContext.ins.Bills.Where(x => x.TableId == request.tableId && x.Payed == false).FirstOrDefaultAsync();
+            Bill bill = await RestaurantContext.ins.Bills.Where(x => x.TableId == request.tableId && x.Paid == false).FirstOrDefaultAsync();
             if (bill != null) {
                 List<BillInfor> billInfor = await RestaurantContext.ins.BillInfors.Where(x => x.BillId == bill.Id).ToListAsync();
                 for(int i=0; i < request.items.Count(); i++)
@@ -60,7 +60,7 @@ namespace WebAPI.Controllers
             {
                 bill = new Bill();
                 bill.TableId = request.tableId;
-                bill.Payed = false;
+                bill.Paid = false;
                 bill.CreateAt = DateTime.Now;
                 bill.Status = false;
                 RestaurantContext.ins.Bills.Add(bill);
@@ -134,7 +134,7 @@ namespace WebAPI.Controllers
             Bill bill = await RestaurantContext.ins.Bills.Where(x => x.Id == id).FirstOrDefaultAsync();
             if (bill != null) {
                 bill.UpdateAt = DateTime.Now;
-                bill.Payed = true;
+                bill.Paid = true;
                 RestaurantContext.ins.Bills.Update(bill);
                 await RestaurantContext.ins.SaveChangesAsync();
 

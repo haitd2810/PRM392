@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\billscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\changepasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\changepasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\request\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\request\\updatepasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\billinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\billinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:25:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
               "$type": "Bookmark",
@@ -57,6 +49,58 @@
               "Name": "ST:23:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenController.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthenController.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\AuthenController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB8AAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T16:00:12.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Bill.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\Bill.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Bill.cs",
+              "RelativeToolTip": "WebAPI\\Models\\Bill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T15:02:37.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BillInfor.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\BillInfor.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\BillInfor.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\BillInfor.cs",
+              "RelativeToolTip": "WebAPI\\Models\\BillInfor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T15:02:29.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\Account.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Account.cs",
+              "RelativeToolTip": "WebAPI\\Models\\Account.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T15:02:05.737Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
@@ -71,67 +115,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bill.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Bill.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\Bill.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Bill.cs",
-              "RelativeToolTip": "WebAPI\\Models\\Bill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:14:52.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BillsController.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\BillsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\BillsController.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\BillsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\BillsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T09:11:46.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdatePasswordRequest.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\UpdatePasswordRequest.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Request\\UpdatePasswordRequest.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\UpdatePasswordRequest.cs",
-              "RelativeToolTip": "WebAPI\\Request\\UpdatePasswordRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T14:40:58.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChangePassController.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\ChangePassController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ChangePassController.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\ChangePassController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\ChangePassController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwDIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T14:40:32.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenController.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthenController.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\AuthenController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T15:14:23.672Z"
             }
           ]
         }

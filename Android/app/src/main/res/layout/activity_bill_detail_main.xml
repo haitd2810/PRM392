@@ -17,16 +17,13 @@
         android:fitsSystemWindows="true"/>
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fitsSystemWindows="true">
-
-
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewBillInfor_billInfo"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/listViewBillInfor_billInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:scrollbars="vertical"/>
+            android:scrollbars="vertical"
+            android:paddingBottom="56dp"/>
 
         <!-- Include layout -->
         <include

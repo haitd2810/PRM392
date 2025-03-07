@@ -1,5 +1,7 @@
 package Models;
 
+import java.util.List;
+
 public class Account {
     private int id;
     private String username;
@@ -11,6 +13,15 @@ public class Account {
     private String updateAt;
     private String deleteAt;
     private Role role;
+    private List<Booking> bookings;
+
+    public List<Booking> getBookings() {
+        return bookings;
+    }
+
+    public void setBookings(List<Booking> bookings) {
+        this.bookings = bookings;
+    }
 
     public Account() {
     }

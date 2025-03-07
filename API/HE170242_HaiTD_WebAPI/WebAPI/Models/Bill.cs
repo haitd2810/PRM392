@@ -12,7 +12,7 @@ namespace WebAPI.Models
 
         public int Id { get; set; }
         public int? TableId { get; set; }
-        public bool? Payed { get; set; }
+        public bool? Paid { get; set; }
         public DateTime? CreateAt { get; set; }
         public int? CreateBy { get; set; }
         public DateTime? UpdateAt { get; set; }

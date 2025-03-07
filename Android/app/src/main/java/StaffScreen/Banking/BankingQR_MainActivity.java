@@ -58,8 +58,6 @@ public class BankingQR_MainActivity extends AppCompatActivity {
                     .setMessage("Confirm that you have received this banking?")
                     .setPositiveButton("Yes", (dialog, which) -> {
                         callAPIPut(billId);
-                        Intent intent = new Intent(this, table_MainActivity.class);
-                        startActivity(intent);
                     })
                     .setNegativeButton("No", null)
                     .show();
@@ -87,6 +85,8 @@ public class BankingQR_MainActivity extends AppCompatActivity {
                     Log.d("API_SUCCESS", "Response Close Bill: " + responseData);
 
                     runOnUiThread(() -> {
+                        Intent intent = new Intent(BankingQR_MainActivity.this, table_MainActivity.class);
+                        startActivity(intent);
                         finish();
                     });
                 } else {

@@ -2,29 +2,41 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="12dp"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@android:color/white"
     android:layout_marginBottom="8dp">
 
-    <TextView
-        android:id="@+id/txtTableId_BillItem"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Bill ID: 123"
-        android:textStyle="bold"
-        android:textSize="16sp" />
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/txtTableId_BillItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill ID: 123"
+            android:textStyle="bold"
+            android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/txtDate_BillItem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Table ID: 5" />
+        <TextView
+            android:id="@+id/txtDate_BillItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table ID: 5" />
 
-    <TextView
-        android:id="@+id/txtPrice_BillItem"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Status: Paid"
-        android:textColor="@android:color/holo_green_dark" />
+        <TextView
+            android:id="@+id/txtPrice_BillItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Paid"
+            android:textColor="@android:color/holo_green_dark" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnViewDetail_Bill"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/view_icon"/>
 
 </LinearLayout>

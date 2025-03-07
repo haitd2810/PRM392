@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebAPI.Models
 {
@@ -14,7 +15,10 @@ namespace WebAPI.Models
         public string? FullName { get; set; }
         public DateTime? CreateAt { get; set; }
         public int? NumberOfBooking { get; set; }
-
+        public int? AccountId { get; set; }
+        [JsonIgnore]
+        public virtual Account? Account { get; set; }
+        [JsonIgnore]
         public virtual Table? Table { get; set; }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace WebAPI.Models
 {
@@ -7,6 +8,7 @@ namespace WebAPI.Models
     {
         public Account()
         {
+            Bookings = new HashSet<Booking>();
             Feedbacks = new HashSet<Feedback>();
             Tokens = new HashSet<Token>();
         }
@@ -22,7 +24,10 @@ namespace WebAPI.Models
         public DateTime? DeleteAt { get; set; }
 
         public virtual Role? Role { get; set; }
+        public virtual ICollection<Booking> Bookings { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Feedback> Feedbacks { get; set; }
+        [JsonIgnore]
         public virtual ICollection<Token> Tokens { get; set; }
     }
 }
