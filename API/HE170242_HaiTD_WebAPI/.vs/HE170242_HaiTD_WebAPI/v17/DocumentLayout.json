@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\request\\makingreservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\request\\makingreservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\billinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\billinfor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,54 +50,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AuthenController.cs",
               "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\AuthenController.cs",
               "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AuthenController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\AuthenController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwB8AAACIAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T16:00:12.591Z",
+              "WhenOpened": "2025-03-08T05:32:28.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Bill.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Bill.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\Bill.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Bill.cs",
-              "RelativeToolTip": "WebAPI\\Models\\Bill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Title": "Booking.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\Booking.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Booking.cs",
+              "RelativeToolTip": "WebAPI\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T15:02:37.879Z",
+              "WhenOpened": "2025-03-08T04:09:39.305Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BillInfor.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\BillInfor.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\BillInfor.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\BillInfor.cs",
-              "RelativeToolTip": "WebAPI\\Models\\BillInfor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAUAAAAAAAAAA==",
+              "Title": "MakingReservationRequest.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\MakingReservationRequest.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Request\\MakingReservationRequest.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Request\\MakingReservationRequest.cs",
+              "RelativeToolTip": "WebAPI\\Request\\MakingReservationRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T15:02:29.493Z",
+              "WhenOpened": "2025-03-08T03:29:53.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Account.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\Account.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Account.cs",
-              "RelativeToolTip": "WebAPI\\Models\\Account.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BookingController.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\BookingController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\BookingController.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\BookingController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\BookingController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAgwFgAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T15:02:05.737Z",
+              "WhenOpened": "2025-03-08T03:21:51.839Z",
               "EditorCaption": ""
             },
             {

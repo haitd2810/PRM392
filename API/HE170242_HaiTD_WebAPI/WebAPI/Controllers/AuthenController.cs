@@ -31,6 +31,10 @@ namespace WebAPI.Controllers
         {
             var account = RestaurantContext.ins.Accounts.Include(x => x.Role).Include(x => x.Bookings.OrderByDescending(x => x.StartDate)).FirstOrDefault(a => 
             a.Username.ToLower().Equals(request.email.ToLower()));
+            if (account != null)
+            {
+                account.Bookings = account.Bookings.OrderByDescending(x => x.StartDate).ToList();
+            }
             if (account == null) return BadRequest("Email is wrong");
             bool password = BCrypt.Net.BCrypt.Verify(request.password, account.Password);
             if(password == false) return BadRequest("Password is wrong");

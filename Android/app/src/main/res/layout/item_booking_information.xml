@@ -7,7 +7,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:id="@+id/bookingitems">
         <TextView
             android:id="@+id/txtFullName_Booking"
             android:layout_width="wrap_content"
@@ -31,9 +33,9 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/btnViewDetail_Bill"
+        android:id="@+id/confirm_booking"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/view_icon"/>
+        android:paddingTop="10dp"/>
 
 </LinearLayout>

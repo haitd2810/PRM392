@@ -62,7 +62,7 @@ public class MenuAdapter extends ArrayAdapter<Menu> {
 
 
         addButton.setOnClickListener(v ->{
-                Toast.makeText(context, "Đã thêm: " + menu.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, "Added : " + menu.getName(), Toast.LENGTH_SHORT).show();
                 if(search(menuOrder, menu,tableId)){
                     int index = getIndex(menuOrder, menu,tableId);
                     List<Order> od = menuOrder.stream().filter(o -> o.getTableId() == tableId

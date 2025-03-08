@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Customer.detailBooking_MainActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Detail Booking"
+            android:textSize="24sp"
+            android:textColor="#597BF7"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFullname_BookingDetail"
+            android:text="Full Name: ABC"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvPhone_BookingDetail"
+            android:text="Phone: 0903040506"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStartDate_BookingDetail"
+            android:text="Booking Date: 05/01/2025"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNumberBook_BookingDetail"
+            android:text="Number of Booking: 5"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStatus_BookingDetail"
+            android:text="Status: Booked"
+            android:textColor="#00FF6D"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thanks"
+            android:text="Thank you for using our restaurant booking service.
+To complete your booking, please make a prepayment of 200,000 VND so we can confirm your reservation.
+\nPlease show this screen to our staff upon arrival for confirmation.
+We look forward to serving you! Thanks."
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="left"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/btnPayment_Customer"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textSize="13sp"
+            android:text="Payment"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/btnCancelBook_Customer"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textSize="13dp"
+            android:text="Cancel booking"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -86,7 +86,7 @@ public class ChangePass_MainActivity extends AppCompatActivity {
             public void onResponse(Call call, Response response) throws IOException {
                 if (response.isSuccessful()) {
                     String responseData = response.body().string();
-                    Log.d("API_SUCCESS", "Response Close Bill: " + responseData);
+                    Log.d("API_SUCCESS", "Response Change pass: " + responseData);
 
                     runOnUiThread(() -> {
                         AccountManager.getInstance().setAccount(null);
@@ -96,7 +96,7 @@ public class ChangePass_MainActivity extends AppCompatActivity {
                     });
                 } else {
                     String errorBody = response.body() != null ? response.body().string() : "Unknown error";
-                    Log.e("API_ERROR", "Response error Close Bill: " + response.code() + " - " + errorBody);
+                    Log.e("API_ERROR", "Response error Change pass: " + response.code() + " - " + errorBody);
 
                     runOnUiThread(() ->
                             Toast.makeText(getApplicationContext(), errorBody, Toast.LENGTH_SHORT).show()
