@@ -30,7 +30,7 @@ namespace WebAPI.Controllers
         public IActionResult Post([FromBody] LoginRequest request)
         {
             var account = RestaurantContext.ins.Accounts.Include(x => x.Role).Include(x => x.Bookings.OrderByDescending(x => x.StartDate)).FirstOrDefault(a => 
-            a.Username.ToLower().Equals(request.email.ToLower()));
+            a.Username.ToLower().Equals(request.email.ToLower()) && a.IsActive == true);
             if (account != null)
             {
                 account.Bookings = account.Bookings.OrderByDescending(x => x.StartDate).ToList();

@@ -1,0 +1,40 @@
+﻿@page "/Admin/Account"
+@model WebAdmin.Pages.Admin.AccountListModel
+@{
+}
+<link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" rel="stylesheet">
+<h1 class="h3 mb-3"><strong>Account</strong> List</h1>
+<form method="post">
+    <button type="submit" class="btn btn-success">Add</button>
+</form>
+<div class="row">
+    @if (Model.account != null)
+    {
+        <table class="table mb-0 table-center">
+            <thead>
+                <tr>
+                    <th class="border-bottom p-3" style="min-width: 50px;">#</th>
+                    <th class="border-bottom p-3" style="min-width: 180px;">Username</th>
+                    <th class="border-bottom p-3">Staff Code</th>
+                    <th class="border-bottom p-3" style="min-width: 150px;">Role</th>
+                    <th class="border-bottom p-3" style="min-width: 150px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var t in Model.account)
+                {
+                    <tr>
+                        <th class="p-3">@t.Id</th>
+                        <td class="p-3">@t.Username</td>
+                        <td class="p-3">@t.Code</td>
+                        <td class="p-3">@t.Role.Name</td>
+                        <td class="text-end p-3">
+                            <a href="/Admin/Account?Handler=Delete&id=@t.Id" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times-circle"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+
+</div>

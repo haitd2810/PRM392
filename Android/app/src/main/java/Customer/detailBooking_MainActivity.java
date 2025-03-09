@@ -22,6 +22,7 @@ import com.google.gson.reflect.TypeToken;
 import org.w3c.dom.Text;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Type;
 import java.util.List;
 
@@ -37,7 +38,7 @@ public class detailBooking_MainActivity extends AppCompatActivity {
     private OkHttpClient client = new OkHttpClient();
     private Booking bookDetail = new Booking();
     TextView tvFullname, tvPhone, tvDate, tvNumber, tvStatus;
-    Button btnCancel;
+    Button btnCancel, btnPayment;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +50,7 @@ public class detailBooking_MainActivity extends AppCompatActivity {
         tvNumber = findViewById(R.id.tvNumberBook_BookingDetail);
         tvStatus = findViewById(R.id.tvStatus_BookingDetail);
         btnCancel = findViewById(R.id.btnCancelBook_Customer);
+        btnPayment = findViewById(R.id.btnPayment_Customer);
         callAPI(getIntent().getIntExtra("bookId",-1));
 
         btnCancel.setOnClickListener(v -> {
@@ -60,6 +62,23 @@ public class detailBooking_MainActivity extends AppCompatActivity {
                     })
                     .setNegativeButton("No", null)
                     .show();
+        });
+
+        btnPayment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    System.out.println("Start Generated Payment URL: ");
+                    String paymentUrl = VNPayConfig.getPaymentUrl(200000, String.valueOf(bookDetail.getId()));
+                    System.out.println("Generated Payment URL: " + paymentUrl);
+                    Intent intent = new Intent(detailBooking_MainActivity.this, Payment_MainActivity.class);
+                    intent.putExtra("payment_url", paymentUrl);
+                    Log.d("VNPAY_URL", paymentUrl);
+                    startActivity(intent);
+                } catch (UnsupportedEncodingException e) {
+                    e.printStackTrace();
+                }
+            }
         });
 
     }

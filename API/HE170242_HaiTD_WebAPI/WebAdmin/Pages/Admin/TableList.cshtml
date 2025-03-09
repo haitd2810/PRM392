@@ -1,0 +1,38 @@
+﻿@page "/Admin/Table"
+@model WebAdmin.Pages.Admin.TableListModel
+@{
+}
+<link href="https://unicons.iconscout.com/release/v3.0.6/css/line.css" rel="stylesheet">
+<h1 class="h3 mb-3"><strong>Table</strong> List</h1>
+<form method="post" asp-page="TableList">
+    <button type="submit" class="btn btn-success">Add</button>
+</form>
+<div class="row">
+    @if(Model.tables != null)
+    {
+        <table class="table mb-0 table-center">
+            <thead>
+                <tr>
+                    <th class="border-bottom p-3" style="min-width: 50px;">#</th>
+                    <th class="border-bottom p-3" style="min-width: 180px;">Is Order</th>
+                    <th class="border-bottom p-3">Create At</th>
+                    <th class="border-bottom p-3" style="min-width: 150px;"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var t in Model.tables)
+                {
+                    <tr>
+                        <th class="p-3">@t.Id</th>
+                        <td class="p-3">@(t.IsOrder == true? "Ordering" : "Free")</td>
+                        <td class="p-3">@t.CreateAt</td>
+                        <td class="text-end p-3">
+                            <a href="/Admin/Table?Handler=Delete&id=@t.Id" class="btn btn-icon btn-pills btn-soft-danger"><i class="uil uil-times-circle"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    
+</div>

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -26,6 +27,7 @@ import Common.AccountManager;
 import Customer.customer_MainActivity;
 import Models.Account;
 import Models.Menu;
+import Register.Register_MainActivity;
 import StaffScreen.Table.table_MainActivity;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -51,6 +53,12 @@ public class login_MainActivity extends AppCompatActivity {
 
         btnLogin.setOnClickListener(v -> {
             callAPIPost(edEmail.getText().toString(), edPassword.getText().toString());
+        });
+
+        TextView tvRegister = findViewById(R.id.tvRegister);
+        tvRegister.setOnClickListener(v -> {
+            Intent intent = new Intent(this, Register_MainActivity.class);
+            startActivity(intent);
         });
 
     }

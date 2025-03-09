@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Register.Register_MainActivity"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:gravity="center">
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textSize="20sp"
+        android:textColor="#6B7FBF"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <!-- Register link -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered? Log in here."
+        android:id="@+id/tvLogin"
+        android:textSize="14sp"
+        android:textColor="#8E8E93"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"/>
+    <!-- Email Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USERNAME"
+        android:textSize="12sp"
+        android:textColor="#8E8E93"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/ed_username_register"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="hello@reallygreatsite.com"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext"/>
+
+    <!-- Password Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="12sp"
+        android:textColor="#8E8E93"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/ed_password_register"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="*****"
+        android:background="@drawable/rounded_edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:inputType="textPassword"/>
+
+    <!-- Email Input -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Repeat Password"
+        android:textSize="12sp"
+        android:textColor="#8E8E93"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/ed_repeatPass_register"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="***"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="textPassword"/>
+
+
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp"/>
+</LinearLayout >

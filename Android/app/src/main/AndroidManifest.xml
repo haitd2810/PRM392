@@ -17,6 +17,12 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name="Register.Register_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="Customer.Payment_MainActivity"
+            android:exported="false" />
+        <activity
             android:name="Customer.detailBooking_MainActivity"
             android:exported="false" />
         <activity
