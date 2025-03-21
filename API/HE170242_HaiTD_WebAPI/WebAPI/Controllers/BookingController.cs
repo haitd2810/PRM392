@@ -66,8 +66,8 @@ namespace WebAPI.Controllers
             if(request.AccountId != null)
             {
                 booking.AccountId = request.AccountId;
-                booking.NumberOfBooking = numberOfBookings;
             }
+            booking.NumberOfBooking = numberOfBookings;
             RestaurantContext.ins.Add(booking);
             await RestaurantContext.ins.SaveChangesAsync();
             return Ok();

@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\pages\\admin\\bill\\billmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\pages\\admin\\bill\\billmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\controllers\\changepasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\changepasscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\pages\\staff\\bookinginformation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\pages\\staff\\bookinginformation\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\webapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD7981C6-F99F-4E92-B88A-EC684D9F2566}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\pages\\admin\\menu\\menumanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\pages\\admin\\menu\\menumanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\pages\\admin\\accounts\\accountmanage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\pages\\admin\\accounts\\accountmanage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\pages\\admin\\accounts\\accountmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\pages\\admin\\accounts\\accountmanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\pages\\admin\\table\\tablemanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\pages\\admin\\table\\tablemanage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|e:\\fptuniversity\\2025\\spring25\\prm392\\project\\api\\he170242_haitd_webapi\\restaurantbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A2CC130-E5F5-4FCC-9067-315AF7024987}|RestaurantBooking\\RestaurantBooking.csproj|solutionrelative:restaurantbooking\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,14 +48,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 11,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:25:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:26:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:22:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
@@ -54,19 +70,49 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:28:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:20:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ChangePassController.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\ChangePassController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ChangePassController.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\ChangePassController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\ChangePassController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAAwC4AAABWAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Staff\\BookingInformation\\Index.cshtml",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Pages\\Staff\\BookingInformation\\Index.cshtml",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Staff\\BookingInformation\\Index.cshtml",
+              "RelativeToolTip": "RestaurantBooking\\Pages\\Staff\\BookingInformation\\Index.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T03:51:07.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\appsettings.json",
+              "RelativeDocumentMoniker": "RestaurantBooking\\appsettings.json",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\appsettings.json",
+              "RelativeToolTip": "RestaurantBooking\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-21T03:50:58.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Pages\\Login.cshtml.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "RestaurantBooking\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T15:18:01.064Z",
+              "WhenOpened": "2025-03-21T03:50:42.092Z",
               "EditorCaption": ""
             },
             {
@@ -75,29 +121,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Account.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Models\\Account.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Models\\Account.cs",
-              "RelativeToolTip": "WebAPI\\Models\\Account.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T14:29:14.581Z",
+              "DocumentIndex": 0,
+              "Title": "billManage.cshtml",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\bill\\billManage.cshtml",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Pages\\Admin\\bill\\billManage.cshtml",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\bill\\billManage.cshtml",
+              "RelativeToolTip": "RestaurantBooking\\Pages\\Admin\\bill\\billManage.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T15:39:14.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\AccountController.cs",
-              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\WebAPI\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDAAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MenuManage.cshtml",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\menu\\MenuManage.cshtml",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Pages\\Admin\\menu\\MenuManage.cshtml",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\menu\\MenuManage.cshtml",
+              "RelativeToolTip": "RestaurantBooking\\Pages\\Admin\\menu\\MenuManage.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE4AAACgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T15:35:28.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "accountManage.cshtml.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml.cs",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml.cs",
+              "RelativeToolTip": "RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T13:44:40.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-13T15:31:43.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "accountManage.cshtml",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml",
+              "RelativeToolTip": "RestaurantBooking\\Pages\\Admin\\accounts\\accountManage.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAwwE4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T15:31:42.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tableManage.cshtml",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\table\\tableManage.cshtml",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Pages\\Admin\\table\\tableManage.cshtml",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Pages\\Admin\\table\\tableManage.cshtml",
+              "RelativeToolTip": "RestaurantBooking\\Pages\\Admin\\table\\tableManage.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T15:30:11.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantBooking\\Program.cs",
+              "ToolTip": "E:\\FPTUniversity\\2025\\Spring25\\PRM392\\Project\\API\\HE170242_HaiTD_WebAPI\\RestaurantBooking\\Program.cs",
+              "RelativeToolTip": "RestaurantBooking\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:25:29.572Z"
             }
           ]
         }

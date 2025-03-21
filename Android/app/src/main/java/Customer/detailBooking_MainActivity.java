@@ -116,6 +116,9 @@ public class detailBooking_MainActivity extends AppCompatActivity {
                             tvStatus.setTextColor(Color.parseColor("#0065FF"));
                             TextView tvThanks = findViewById(R.id.thanks);
                             tvThanks.setText("Thank you for using our restaurant service. We look forward to seeing you more in the future!");
+
+                        }
+                        if(!bookDetail.getStatus().equals("booked")){
                             btnCancel.setVisibility(View.GONE);
                         }
                     });
