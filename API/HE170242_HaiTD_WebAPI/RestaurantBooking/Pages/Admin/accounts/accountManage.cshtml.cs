@@ -23,7 +23,7 @@ namespace RestaurantBooking.Pages.Admin.accounts
             Search = search;
             CurrentPage = pageIndex;
             SearchRole = searchrole;
-            var query = RestaurantContext.Ins.Accounts.AsQueryable();
+            var query = RestaurantContext.Ins.Accounts.Where(x => x.IsActive == true).AsQueryable();
 
             if (!string.IsNullOrEmpty(search))
             {
@@ -40,7 +40,8 @@ namespace RestaurantBooking.Pages.Admin.accounts
             TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
 
             acc = query.Include(x => x.Role)
-            .OrderByDescending(i => i.Id)
+            .OrderByDescending(x => x.IsActive)
+            //.OrderByDescending(i => i.Id)
             .Skip((pageIndex - 1) * pageSize)
                         .Take(pageSize)
                         .ToList();
@@ -72,7 +73,7 @@ namespace RestaurantBooking.Pages.Admin.accounts
             }
             RestaurantContext.Ins.Accounts.Update(me);
             RestaurantContext.Ins.SaveChanges();
-            TempData["success"] = "Delete successful";
+            TempData["success"] = "Active successful";
             return RedirectToPage("/Admin/accounts/accountManage");
         }
 
@@ -89,7 +90,7 @@ namespace RestaurantBooking.Pages.Admin.accounts
             }
             RestaurantContext.Ins.Accounts.Update(me);
             RestaurantContext.Ins.SaveChanges();
-            TempData["success"] = "Delete successful";
+            TempData["success"] = "Update successful";
             return RedirectToPage("/Admin/accounts/accountManage");
         }
 
@@ -126,7 +127,7 @@ namespace RestaurantBooking.Pages.Admin.accounts
         private static void SendMail(string email, string token, string pass)
         {
             string url = $"https://localhost:7144/active?token={token}";
-            string body = $"Hello {email},\n\nYour activation {url}. Please enter this code in the application to activate your account \n\n Your password is: {pass}";
+            string body = $"Hello {email},\n\nThanks for using out service. Please enter this code in the application to activate your account \n\n Your password is: {pass}";
             IConfiguration config = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json", true, true)
@@ -146,7 +147,7 @@ namespace RestaurantBooking.Pages.Admin.accounts
                 TempData["error"] = "Email and password is not null";
                 return RedirectToPage("/Admin/accounts/accountManage");
             }
-            var acc = RestaurantContext.Ins.Accounts.Where(x => x.Username.Equals(name)).FirstOrDefault();
+            var acc = RestaurantContext.Ins.Accounts.Where(x => x.Username.Equals(name) && x.IsActive == true).FirstOrDefault();
             if (acc != null)
             {
                 TempData["error"] = "Email existed";
@@ -157,7 +158,7 @@ namespace RestaurantBooking.Pages.Admin.accounts
             account.Username = name;
             account.Password = hash;
             account.CreateAt = DateTime.Now;
-            account.IsActive = false;
+            account.IsActive = true;
             account.RoleId = int.Parse(role);
             if (int.Parse(role) == 1)
             {
@@ -168,23 +169,24 @@ namespace RestaurantBooking.Pages.Admin.accounts
             }
             RestaurantContext.Ins.Accounts.Add(account);
             RestaurantContext.Ins.SaveChanges();
-            var a = RestaurantContext.Ins.Accounts.Where(x => x.Username.Equals(name)).FirstOrDefault();
-            if (a == null)
-            {
-                return RedirectToPage("/Admin/accounts/accountManage");
-            }
-            string token = Guid.NewGuid().ToString();
-            Token to = new Token
-            {
-                Token1 = token,
-                AccountId = a.Id,
-                CreateAt = DateTime.Now
-            };
-            HttpContext.Session.SetInt32("accId", a.Id);
-            RestaurantContext.Ins.Tokens.Add(to);
-            RestaurantContext.Ins.SaveChanges();
+            //var a = RestaurantContext.Ins.Accounts.Where(x => x.Username.Equals(name)).FirstOrDefault();
+            //if (a == null)
+            //{
+            //    return RedirectToPage("/Admin/accounts/accountManage");
+            //}
+            //string token = Guid.NewGuid().ToString();
+            //Token to = new Token
+            //{
+            //    Token1 = token,
+            //    AccountId = a.Id,
+            //    CreateAt = DateTime.Now
+            //};
+            HttpContext.Session.SetInt32("accId", account.Id);
+            //RestaurantContext.Ins.Tokens.Add(to);
+            //RestaurantContext.Ins.SaveChanges();
             TempData["success"] = "Add account successful";
-            return RedirectToPage("/Admin/accounts/accountManage");
+            SendMail(name, "", pass);
+			return RedirectToPage("/Admin/accounts/accountManage");
         }
 
         private string GenerateRandomString(int length)

@@ -5,25 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0560920-7fc7-4f53-914c-352e7885f5a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/FileContentIndex/d04ab719-8dd0-46de-8ba6-bf5a482aa5a9.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/FileContentIndex/dc7c2595-9fee-489b-b0aa-8242e6e674cf.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/FileContentIndex/f029962f-dd83-46bc-9668-6cacf8688ca1.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/.futdcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/fileList.bin" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/HE170242_HaiTD_WebAPI/v17/fileList.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/ProjectEvaluation/he170242_haitd_webapi.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/ProjectEvaluation/he170242_haitd_webapi.metadata.v9.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/ProjectEvaluation/he170242_haitd_webapi.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/ProjectEvaluation/he170242_haitd_webapi.projects.v9.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/ProjectEvaluation/he170242_haitd_webapi.strings.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/.vs/ProjectEvaluation/he170242_haitd_webapi.strings.v9.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/HE170242_HaiTD_WebAPI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/HE170242_HaiTD_WebAPI.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/WebAPI/Controllers/BookingController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/WebAPI/Controllers/BookingController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/WebAPI/obj/Debug/net6.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/API/HE170242_HaiTD_WebAPI/WebAPI/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Android/app/src/main/java/Customer/detailBooking_MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Android/app/src/main/java/Customer/detailBooking_MainActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,12 +36,14 @@
     "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "com.google.services.firebase.aqiPopupShown": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/FPTUniversity/2025/Spring25/PRM392/Project",
+    "last_opened_file_path": "E:/FPTUniversity/2025/Spring25/PRM392/Project/Android",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

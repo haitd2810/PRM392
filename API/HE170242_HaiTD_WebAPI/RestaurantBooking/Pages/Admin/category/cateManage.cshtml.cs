@@ -15,7 +15,7 @@ namespace RestaurantBooking.Pages.Admin.category
         {
             CurrentPage = pageIndex;
             Search = search;
-            var query = RestaurantContext.Ins.Categories.AsQueryable();
+            var query = RestaurantContext.Ins.Categories.Where(x => x.DeleteFlag == false).AsQueryable();
             if (!string.IsNullOrEmpty(search))
             {
                 query = query.Where(x => x.Name.Contains(search));

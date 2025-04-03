@@ -23,7 +23,7 @@ namespace RestaurantBooking.Pages.Admin.booking
             var query = RestaurantContext.Ins.Bookings.AsQueryable();
             if (!string.IsNullOrEmpty(search))
             {
-                query = query.Where(x => x.Phone.Equals(search) );
+                query = query.Where(x => x.Phone.Contains(search) || x.FullName.Contains(search));
             }
             if(date.HasValue)
             {

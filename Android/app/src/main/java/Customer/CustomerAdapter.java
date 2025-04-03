@@ -47,7 +47,7 @@ public class CustomerAdapter extends ArrayAdapter<Booking> {
         itemFullname.setText("Full name: " + String.valueOf(booking.getFullName()));
         itemPhone.setText("Phone: " + String.valueOf(booking.getPhone()));
         itemStartDate.setText("Start Date: " + String.valueOf(booking.getStartDate()));
-        if(booking.getStatus().equals("confirm")){
+        if(!booking.getStatus().equals("booked")){
             int imgResId = context.getResources().getIdentifier("confirmed", "drawable", context.getPackageName());
             imgConfirm.setImageResource(imgResId);
         }else{

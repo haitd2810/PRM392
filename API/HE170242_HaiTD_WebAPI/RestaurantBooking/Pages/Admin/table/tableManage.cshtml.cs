@@ -13,7 +13,7 @@ namespace RestaurantBooking.Pages.Admin.table
         private void load(int pageIndex = 1, int pageSize = 5)
         {
             CurrentPage = pageIndex;
-            var query = RestaurantContext.Ins.Tables.AsQueryable();
+            var query = RestaurantContext.Ins.Tables.Where(x => x.DeleteFlag == false).AsQueryable();
             int totalItems = query.Count();
             TotalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
             tables = query

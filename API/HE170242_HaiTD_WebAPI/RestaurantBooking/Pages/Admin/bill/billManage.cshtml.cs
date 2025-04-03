@@ -39,7 +39,7 @@ namespace RestaurantBooking.Pages.Admin.bill
 
             if (!string.IsNullOrEmpty(status) && status != "All" && bool.TryParse(status, out bool statusValue))
             {
-                query = query.Where(x => x.Status == statusValue);
+                query = query.Where(x => x.Paid == statusValue);
             }
             if(!string.IsNullOrEmpty(from) && !string.IsNullOrEmpty(to))
             {
@@ -57,7 +57,7 @@ namespace RestaurantBooking.Pages.Admin.bill
                          .Take(pageSize)
                          .ToList();
 
-            Account = RestaurantContext.Ins.Accounts.ToList();
+            Account = RestaurantContext.Ins.Accounts.Where(x => x.RoleId != 3).ToList();
 
             return Page();
         }

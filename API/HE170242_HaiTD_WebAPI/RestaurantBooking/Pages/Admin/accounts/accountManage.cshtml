@@ -67,15 +67,15 @@
                                 <td>@i.UpdateAt</td>
                                 <td>@i.DeleteAt</td>
                                 <td>
-                                    <a class="btn btn-primary update" style="background-color:darkolivegreen; margin-bottom:5px;" onclick="openUpdateAcc(@i.Id, '@i.RoleId')">Update</a>
                                     @if (i.IsActive == true)
                                     {
+                                        <a class="btn btn-primary update" style="background-color:darkolivegreen; margin-bottom:5px;" onclick="openUpdateAcc(@i.Id, '@i.RoleId')">Update</a>
                                         <a class="btn btn-primary bg-danger delete" style="margin-bottom:5px;" data-id="@i.Id">Delete</a>
                                     }
-                                    else
+                                    @* else
                                     {
                                         <a class="btn btn-primary bg-success active" style="margin-bottom:5px;" data-id="@i.Id">Active</a>
-                                    }
+                                    } *@
                                 </td>
                             </tr>
                         }
